@@ -57,6 +57,7 @@ export default {
       boxShadow: {
         "custom-xl": "inset 4px 2px 34px #c3c3c3",
         "modern": "0px 2px 120px 0px #292342 inset",
+        "custom-modern": "0px 10px 50px 0px #180842,inset 0px 2px 60px 0px #BFB1FF29",
       }
     },
   },
