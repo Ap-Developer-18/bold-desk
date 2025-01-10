@@ -14,13 +14,13 @@ export const MODERN_DATA = [
     {
         svg: "/images/svg/omnichannel.svg",
         title: "Omnichannel",
-        description: "Manage all support channels—chat, email, WhatsApp, and more—in one place.",
+        description: "Manage all support channels—chat, email, WhatsApp, Facebook, Instagram, Slack, MS Teams, SMS—in one place.",
         path: "/images/png/modren-three.webp",
     },
     {
         svg: "/images/svg/ai-copilot.svg",
         title: "AI Copilot",
-        description: "Boost efficiency and reduce workload with generative AI and smart automations.",
+        description: "Boost efficiency and reduce the support workload with generative AI and smart automations.",
         path: "/images/png/modren-four.webp",
     },
     {
@@ -32,7 +32,7 @@ export const MODERN_DATA = [
     {
         svg: "/images/svg/task-management.svg",
         title: "Task Management",
-        description: "Easily create, assign, and manage tasks to resolve customer issues efficiently.",
+        description: "Easily create, assign, and manage tasks to resolve customer issues and questions efficiently.",
         path: "/images/png/modren-six.webp",
     },
 ];
