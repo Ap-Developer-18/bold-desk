@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", serif !important;
+}
+@layer utilities {
+  .main-heading {
+    @apply text-[36px] lg:text-[48px] xl:text-[60px]  leading-[110%] text-[#03091e] font-semibold;
+  }
+  .sub-heading {
+    @apply text-[28px] md:text-[37px] 2xl:text-[40px] 3xl:text-[48px] font-black;
+  }
+  .paragraph-heading {
+    @apply text-lg md:text-xl  text-[#303132];
+  }
+  .nav-link {
+    @apply text-lg md:text-xl text-[#021416];
+  }
+  .sub-title {
+    @apply text-lg md:text-xl  text-primary;
+  }
+  .small-heading {
+    @apply text-base md:text-lg leading-[150%] font-satoshi-regular text-secondry;
+  }
+  .slider-title {
+    @apply text-xl md:text-[22px] lg:text-[24px];
+  }
+  .faq-title {
+    @apply text-[22px] md:text-[24px] lg:text-[28px] font-medium;
+  }
+  .dropdown-item {
+    @apply block px-4 py-2.5 text-base  hover:bg-primary hover:text-white  transition-all  duration-200 ease-in-out rounded-sm;
+  }
+}
+.AI_bg {
+  background: linear-gradient(
+    89.96deg,
+    rgba(246, 208, 254, 0.75) 43.92%,
+    #fff 96.49%
+  );
+}
